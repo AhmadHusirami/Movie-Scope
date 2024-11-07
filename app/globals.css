@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #121212;
+  --card-bg: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1a1;
+  --accent: #4f46e5;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  background-color: rgb(0, 1, 2);
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  background-color: rgb(0, 1, 2);
+}
+
+/* Smooth animation for hover */
+@layer utilities {
+  .transition-smooth {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}

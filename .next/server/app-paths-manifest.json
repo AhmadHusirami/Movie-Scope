@@ -1,0 +1,8 @@
+{
+  "/now-playing/page": "app/now-playing/page.js",
+  "/top-rated/page": "app/top-rated/page.js",
+  "/genres/page": "app/genres/page.js",
+  "/my-list/page": "app/my-list/page.js",
+  "/genres/[id]/page": "app/genres/[id]/page.js",
+  "/page": "app/page.js"
+}
